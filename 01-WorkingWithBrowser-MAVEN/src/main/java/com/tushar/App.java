@@ -56,7 +56,7 @@ public class App
         	Driver.navigate().forward();
         	
 //        11. Close the browser
-        	Driver.close();
+        	Driver.quit();//close();
         
         System.out.println( "App Closed" );
     }
