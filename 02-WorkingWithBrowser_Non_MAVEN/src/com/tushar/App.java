@@ -50,7 +50,7 @@ public class App
         	chromeDriver.navigate().forward();
         	
 //        11. Close the browser
-        	chromeDriver.quit();
+        	chromeDriver.close();  //chromeDriver.quit(); 
         
         System.out.println( "App Closed" );
     }
