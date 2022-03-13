@@ -13,7 +13,7 @@ public class App
         
 //        1.  Launch the Browser 
 		/*	//(Browser = Chrome)
-			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Browser_Drivers\\Driver.exe");
+			System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"\\Browser_Drivers\\chromedriver.exe");
 			Driver = new ChromeDriver();*/
         	
         	System.setProperty("webdriver.edge.driver", System.getProperty("user.dir")+"\\Browser_Drivers\\msedgedriver.exe");
